@@ -17,7 +17,23 @@
 ## Schedule
 
 + [x] Release the model.
-+ [ ] Release the demo code.
++ [x] Release the demo code.
 + [ ] Release the evaluation code.
 + [ ] Release the training code.
 + [ ] Release the data.
+
+## Environment
+
+Please refer to [InternVL Installation](https://internvl.readthedocs.io/en/latest/get_started/installation.html) to build the environment.
+
+## Demo
+
+Run the demo:
+
+```bash
+torchrun --nproc-per-node=1 src/demo.py
+```
+
+## Acknowledgement
+
+We refer to the codes from [InternVL](https://github.com/OpenGVLab/InternVL). Thank the authors for releasing their code.
