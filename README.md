@@ -1,6 +1,6 @@
 # MedRegA: Interpretable Bilingual Multimodal Large Language Model for Diverse Biomedical Tasks
 
-<a href=""><img src="https://img.shields.io/badge/Paper-arxiv-green.svg?style=flat-square"></a>
+<a href="https://arxiv.org/abs/2410.18387"><img src="https://img.shields.io/badge/Paper-arxiv-green.svg?style=flat-square"></a>
 <a href="https://medrega.github.io/"><img src="https://img.shields.io/badge/Project-Website-blue.svg?style=flat-square"></a>
 <a href="https://huggingface.co/Luxuriant16/medrega"><img src="https://img.shields.io/badge/Model-Hugging Face-red.svg?style=flat-square"></a>
 
