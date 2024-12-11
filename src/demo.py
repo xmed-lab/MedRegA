@@ -249,7 +249,7 @@ if __name__ == '__main__':
         time_prefix = time.strftime('%y%m%d%H%M%S', time.localtime())
         results_file = f'{ds_name}_{time_prefix}.json'
         results_file = os.path.join(args.out_dir, results_file)
-        json.dump(merged_outputs, open(results_file, 'w'))
+        json.dump(merged_outputs, open(results_file, 'w'), ensure_ascii=False)
         print('Results saved to {}'.format(results_file))
 
     torch.distributed.barrier()
