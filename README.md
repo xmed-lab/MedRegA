@@ -18,7 +18,7 @@
 
 + [x] Release the model.
 + [x] Release the demo code.
-+ [ ] Release the evaluation code.
++ [x] Release the evaluation code.
 + [ ] Release the training code.
 + [ ] Release the data.
 
