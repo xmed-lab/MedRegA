@@ -34,6 +34,17 @@ Run the demo:
 torchrun --nproc-per-node=1 src/demo.py
 ```
 
+## Cite
+
+```
+@article{wang2024interpretable,
+  title={Interpretable bilingual multimodal large language model for diverse biomedical tasks},
+  author={Wang, Lehan and Wang, Haonan and Yang, Honglong and Mao, Jiaji and Yang, Zehong and Shen, Jun and Li, Xiaomeng},
+  journal={arXiv preprint arXiv:2410.18387},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 
 We refer to the codes from [InternVL](https://github.com/OpenGVLab/InternVL). Thank the authors for releasing their code.
