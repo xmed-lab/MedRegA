@@ -1,0 +1,259 @@
+{
+    "slake_train_vqa": {
+            "root": "Slake/Slake1.0",
+            "length": 5972,
+            "repeat_time": 1,
+            "annotation": "process_medmm/v2/train_json/vqa/slake_train_vqa.jsonl",
+            "data_augment": true,
+            "base_prompt": "You are a helpful medical assistant. You are required to answer the question based on the medical image."
+    },
+    "vqarad_train_vqa": {
+            "root": "radvqa",
+            "length": 1797,
+            "repeat_time": 1,
+            "annotation": "process_medmm/v2/train_json/vqa/vqarad_train_vqa.jsonl",
+            "data_augment": true,
+            "base_prompt": "You are a helpful medical assistant. You are required to answer the question based on the medical image."
+    },
+    "pmcvqa_train_vqa": {
+        "root": "pmcvqa",
+        "length": 329551,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/vqa/pmcvqa_train_combine_vqa.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. You are required to answer the question based on the medical image. Please answer the question with the given options."
+    },
+    "pathvqa_train_vqa": {
+        "root": "pvqa",
+        "length": 26034,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/vqa/pathvqa_train_vqa.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. You are required to answer the question based on the medical image."
+    },
+    "iuxray_train_rg": {
+        "root": "iu_xray",
+        "length": 4730,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/rg/iuxray_train_rg.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is report generation. You are given a chest x-ray image, and you are required to generate a medical report describing the observations and diagnosis in the image."
+    },
+    "mimiccxr_train_rg": {
+        "root": "mimic-cxr-jpg/2.0.0",
+        "length": 354569,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/rg/mimiccxr_train_rg.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is report generation. You are given a chest x-ray image, and you are required to generate a medical report consisting of findings and impressions based on the image. Finding includes the observations, and impression outlines the final diagnosis."
+    },
+    "brest_train_cls": {
+        "root": "a-brazilian-multilabel-ophthalmological-dataset-brset-1.0.0",
+        "length": 13012,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/brest_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given an OCT image. The possible diagnoses are:\nhypertensive retinopathy\ndiabetic macular edema\ndrusens\nincreased cup disc ratio\nnondiabetic retinal hemorrhage\nvascular occlusion\nage-related macular degeneration\nother\nmyopic fundus\ndiabetic retinopathy\nretinal detachment\nscar\nnevus\nnormal\n\"normal\" means no diseases are detected."
+    },
+    "chexpert_train_cls": {
+        "root": "chexpert/chexpertchestxrays-u20210408",
+        "length": 223414,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/chexpert_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a chest x-ray image. The possible diagnoses are:\nEnlarged Cardiomediastinum\nCardiomegaly\nLung Opacity\nLung Lesion\nEdema\nConsolidation\nPneumonia\nAtelectasis\nPneumothorax\nPleural Effusion\nPleural Other\nFracture\nSupport Devices\nNo Finding\n\"No finding\" means no diseases are detected."
+    },
+    "cxr14_train_cls": {
+        "root": "CXR8",
+        "length": 91039,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/cxr14_train_combine_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a chest x-ray image. The possible diagnoses are:\nAtelectasis\nCardiomegaly\nConsolidation\nEdema\nEffusion\nEmphysema\nFibrosis\nHernia\nInfiltration\nMass\nNodule\nPleural Thickening\nPneumonia\nPneumothorax\nPneumoperitoneum\nPneumomediastinum\nSubcutaneous Emphysema\nTortuous Aorta\nCalcification of the Aorta\nNo Finding\n\"No finding\" means no diseases are detected."
+    },
+    "isic2016_train_cls": {
+        "root": "isic/ISIC2016",
+        "length": 900,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/isic2016_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nbenign\nmalignant\n"
+    },
+    "isic2017_train_cls": {
+        "root": "isic/ISIC2017",
+        "length": 2000,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/isic2017_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nmelanoma\nseborrheic keratosis\nnevous\n"
+    },
+    "isic2018_train_cls": {
+        "root": "isic/ISIC2018",
+        "length": 10015,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/isic2018_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nMelanoma\nMelanocytic nevus\nBasal cell carcinoma\nBowen's disease\nBenign keratosis\nDermatofibroma\nVascular lesion\n"
+    },
+    "isic2019_train_cls": {
+        "root": "isic/ISIC2019",
+        "length": 20265,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/isic2019_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nMelanoma\nMelanocytic nevus\nBasal cell carcinoma\nActinic keratosis\nBenign keratosis\nDermatofibroma\nVascular lesion\nSquamous cell carcinoma\n"
+    },
+    "isic2020_train_cls": {
+        "root": "isic/ISIC2020",
+        "length": 33126,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/isic2020_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nbenign\nmelanoma\n"
+    },
+    "mura_train_cls":{
+        "root": "MURA-v1.1",
+        "length": 36809,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/mura_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given an X-ray image. The possible diagnoses are normal and abnormal."
+    },
+    "oct2017_train_cls":{
+        "root": "OCT2017_",
+        "length": 83484,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/oct2017_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given an OCT image. The possible diagnoses are:\nnormal\ndrusen\ndiabetic macular edema\nchoroidal neovascularization\n"
+    },
+    "octid_train_cls":{
+        "root": "octid/OCTID",
+        "length": 520,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/octid_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given an OCT image. The possible diagnoses are:\nNormal\nDiabetic Retinopathy\nMacular Hole\nCentral Serous Retinopathy\n"
+    },
+    "organamnist_train_cls":{
+        "root": "/medmnist/organamnist",
+        "length": 41052,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/organamnist_train_combine_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a CT image. The possible organs are:\nbladder\nleft femur\nright femur\nheart\nleft kidney\nright kidney\nliver\nleft lung\nright lung\npancreas\nspleen\n"
+    },
+    "organcmnist_train_cls":{
+        "root": "medmnist/organcmnist",
+        "length": 15367,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/organcmnist_train_combine_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a CT image. The possible organs are:\nbladder\nleft femur\nright femur\nheart\nleft kidney\nright kidney\nliver\nleft lung\nright lung\npancreas\nspleen\n"
+    },
+    "organsmnist_train_cls":{
+        "root": "medmnist/organsmnist",
+        "length": 15367,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/organsmnist_train_combine_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a CT image. The possible organs are:\nbladder\nleft femur\nright femur\nheart\nleft kidney\nright kidney\nliver\nleft lung\nright lung\npancreas\nspleen\n"
+    },
+    "padufes_train_cls":{
+        "root": "pad_ufes_20",
+        "length": 15367,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/padufes_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a dermoscopic image. The possible diagnoses are:\nBasal Cell Carcinoma\nSquamous Cell Carcinoma\nActinic Keratosis\nSeborrheic Keratosis\nMelanoma\nNevus\n"
+    },
+    "pannuke_train_cls":{
+        "root": "pannuke",
+        "length": 5179,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/pannuke_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a pathology image. The possible tissues are:\nBreast\nColon\nBile duct\nEsophagus\nUterus\nLung\nCervix\nHead or Neck\nSkin\nAdrenal gland\nKidney\nStomach\nProstate\nTestis\nLiver\nThyroid\nPancreatic\nOvarian\nBladder\n"
+    },
+    "pathcrc_norm":{
+        "root": "NCT-CRC-HE-100K",
+        "length": 100000,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/pathcrc_norm_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a pathology image. The possible tissues are:\nadipose\nbackground\ndebris\nlymphocytes\nmucus\nsmooth muscle\nnormal colon mucosa\ncancer-associated stroma\ncolorectal adenocarcinoma epithelium\n"
+    },
+    "pathcrc_nonorm":{
+        "root": "NCT-CRC-HE-100K-NONORM",
+        "length": 100000,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/pathcrc_nonorm_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is image classification. You are given a pathology image. The possible tissues are:\nadipose\nbackground\ndebris\nlymphocytes\nmucus\nsmooth muscle\nnormal colon mucosa\ncancer-associated stroma\ncolorectal adenocarcinoma epithelium\n"
+    },
+    "rfmid_train_cls":{
+        "root": "B. RFMiD_Challenge_Dataset",
+        "length": 2560,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/rfmid_train_combine_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given an OCT image. The possible diagnoses are:\nOptic disc pallor\nChorioretinitis\nMacular hole\nLaser scars\nAge-related macular degeneration\nRetinal pigment epithelium changes\nRetinitis pigmentosa\nOptic disc edema\nAnterior ischemic optic neuropathy\nDrusens\nMyopia\nParafoveal telangiectasia\nRetinitis\nExudation\nTortuous vessels\nAsteroid hyalosis\nEpiretinal membrane\nDiabetic retinopathy\nOptic disc cupping\nMedia Haze\nTessellation\nOptociliary shunt\nCentral serous retinopathy\nBranch retinal vein occlusion\nCentral retinal vein occlusion\nMacular scar\nRetinal traction\nnormal\nOther\n\"normal\" means no diseases are detected. \"other\" means diseases not included in the list are detected."
+    },
+    "vindrcxr_train_cls":{
+        "root": "vindr-cxr",
+        "length": 45000,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/vindrcxr_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a chest x-ray image. The possible diagnoses are:\nAortic enlargement\nAtelectasis\nCalcification\nCardiomegaly\nClavicle fracture\nConsolidation\nEdema\nEmphysema\nEnlarged PA\nILD\nInfiltration\nLung Opacity\nLung cavity\nLung cyst\nMediastinal shift\nNodule or Mass\nPleural effusion\nPleural thickening\nPneumothorax\nPulmonary fibrosis\nRib fracture\nOther lesion\nCOPD\nLung tumor\nPneumonia\nTuberculosis\nOther diseases\nNo finding\n\"No finding\" means no diseases are detected."
+    },
+    "vindrmammo_train_cls": {
+        "root": "vindr_mammo",
+        "length": 16391,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/vindrmammo_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a mammography image. The possible diagnoses are:\nSuspicious Calcification\nNipple Retraction\nSkin Retraction\nArchitectural Distortion\nGlobal Asymmetry\nFocal Asymmetry\nSuspicious Lymph Node\nAsymmetry\nMass\nSkin Thickening\nNo Finding\n\"No finding\" means no diseases are detected."
+    },
+    "vindrpcxr_train_cls":{
+        "root": "vindr-pcxr",
+        "length": 7728,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/vindrpcxr_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a chest x-ray image. The possible diagnoses are:\nBronchitis\nBrocho-pneumonia\nBronchiolitis\nSitus inversus\nPneumonia\nPleuro-pneumonia\nDiagphramatic hernia\nTuberculosis\nCongenital emphysema\nCPAM\nHyaline membrane disease\nMediastinal tumor\nLung tumor\nOther disease\nNo finding\n\"No finding\" means no diseases are detected."
+    },
+    "vindrspinexr_train_cls":{
+        "root": "vindr_spinexr",
+        "length": 8389,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/cls/vindrspinexr_train_cls.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is disease diagnosis. You are given a spine x-ray image. The possible diagnoses are:\nSurgical implant\nForaminal stenosis\nVertebral collapse\nDisc space narrowing\nOsteophytes\nSpondylolysthesis\nOther lesions\nNo finding\n\"No finding\" means no diseases are detected."
+    },
+    "text2region":{
+        "root": "MedRegInstruct",
+        "length": 222966,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/regt2r/acdc_train_regt2r.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is object detection. You are required to find all the regions of the given objects. The region is represented in the form of bounding box, [x1, y1, x2, y2], with integers ranging from 0 to 999. These values correspond to the top left x, top left y, bottom right x, and bottom right y. For each object, please utilize this format to represent the region with its bounding box: \"<ref>object</ref><box>[[x1, y1, x2, y2]]</box>\". There might be multiple boxes for one object, in which case the format is like \"<ref>object</ref><box>[[x1, y1, x2, y2], [x3, y3, x4, y4]]</box>\"."
+    },
+    "region2text":{
+        "root": "MedRegInstruct",
+        "length": 242298,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v2/train_json/regr2t/cmrxmotions_train_regr2t.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is object recognition. You are required to recognize the object in the given region. The region is represented in the form of bounding box, [x1, y1, x2, y2], with integers ranging from 0 to 999. These values correspond to the top left x, top left y, bottom right x, and bottom right y."
+    
+    },
+    "grounded_reports_mimiccxr":{
+        "root": "MedRegInstruct",
+        "length": 715115,
+        "repeat_time": 1,
+        "annotation": "process_medmm/v3/train_json/groundedrg/mimiccxrgold_train_groundedrg_new.jsonl",
+        "data_augment": true,
+        "base_prompt": "You are a helpful medical assistant. Your task is report phrase grounding. You are given a chest x-ray image, and you are required to locate the region and generate a report for the given organ. The region is represented in the form of bounding box, [x1, y1, x2, y2], with integers ranging from 0 to 999. These values correspond to the top left x, top left y, bottom right x, and bottom right y. For each object, please utilize this format to represent the region with its bounding box: \"<ref>object</ref><box>[[x1, y1, x2, y2]]</box>\"."
+    }
+}
