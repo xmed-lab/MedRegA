@@ -42,11 +42,13 @@ The training details can be referred to the [slurm scripts](https://github.com/x
 ## Cite
 
 ```
-@article{wang2024interpretable,
-  title={Interpretable bilingual multimodal large language model for diverse biomedical tasks},
-  author={Wang, Lehan and Wang, Haonan and Yang, Honglong and Mao, Jiaji and Yang, Zehong and Shen, Jun and Li, Xiaomeng},
-  journal={arXiv preprint arXiv:2410.18387},
-  year={2024}
+@inproceedings{
+  wang2025interpretable,
+  title={Interpretable Bilingual Multimodal Large Language Model for Diverse Biomedical Tasks},
+  author={Lehan Wang and Haonan Wang and Honglong Yang and Jiaji Mao and Zehong Yang and Jun Shen and Xiaomeng Li},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=YuHQTo6G9S}
 }
 ```
 
